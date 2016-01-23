@@ -1,30 +1,83 @@
-.vertical_menu ul {
+*
+{margin:0px;
+	padding:0px;
+	-moz-box-sizing:border;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+#main-header {
+	background: #3DC4CB;
+	color:white;
+	height:80px;
+
+}
+#main-header a {
+	color:white;
+}
+#logo-header {
+	float:left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+
+
+}
+#logo-header:hover {
+	color:##0b76a6;
+}
+nav{
+	float:right;
+}
+nav ul{
 	margin:0;
 	padding:0;
-	width:185px;
-    list-style-type: none;
-	border:0;
-
+	list-style:none;
+	padding-right:20px;
+	float:left;
 }
-
-.vertical_menu ul li a{
-	text-decoration: none;
-	color: white;
-	padding:10.5px 11px;
-	background-color: #1C2731;
+nav ul li a{
 	display:block;
+	padding:0 10 px;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background:#0b76a6;
+}
+#main-content {
+	background:white;
+	width:90%;
+	max-width: 800px;
+	margin:20px auto;
+	box-shadow: 0 0 10px rgba (0,0,0,.1)
+}
+#main-content header,
+#main-content .content{
+	padding:40px;
+}
+
+#logo-header .site-desc {
+	display:block;
+	font-weight:300;
+	font-size: 0.8em;
+	color: #999;
+}
+
+h1 {
+	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: white;
 
 }
-.vertical_menu ul li a:hover, .menu_simple ul li .current{
-	color:#1C2731;
-	background-color: #E9E9C0;
-}
 
+.container{
+	margin: 0 auto;
+	width: 900px;
+}
 
 
 .color1 {
-	padding: 0;
+	padding: 0.1em 1% 0;
 	clear:both;
 	float:left;
 	width:100%;
@@ -33,21 +86,14 @@
 }
 .color1number {
 	background-color: #1C2731;
-	height: 5em;
-	width: 103%;
-	display: table-cell;
-	margin-bottom:0.5em;
-	padding:0;
+	height: 120px;
+	width: 100%;
 	font-size:2em;
 	text-align:center;
-	line-height: 2px;
 	vertical-align: middle;
 	overflow: hidden;
 	float: none;
 	position:absolute;
-	top:-0.25em;
-	left:-1.5%;
-	right:-1.5%;
 	color:white;
 }
 .color1preview {
@@ -58,16 +104,18 @@
 	font-family: 'Ubuntu', sans-serif;
 	line-height: 1.2em;
 	margin-bottom: 1em;
+	margin: 0.5em;
 	background-color:#fff;
 	height: 13em;
 	position:relative;
 	overflow: hidden; 
 
+
 }
 .color1details {
 	padding: 1px;
-	margin-bottom:0.5em;
-	display:block;
+	margin-bottom:0.9em;
+	margin-left: 0.9em;
 	position:absolute;
 	bottom:0;
 	background-color: white;
@@ -76,4 +124,8 @@
 
 
 
+}
+.content{
+	padding-top:100px;
+	margin-top: 40px;
 }
