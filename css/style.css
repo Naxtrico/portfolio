@@ -118,7 +118,7 @@ h3 {
 .headings{
 	
 	background-color: #F6FFC3;
-	height: 380px;
+	height: 230px;
 }
 .titlehead{
 	
@@ -146,6 +146,27 @@ h3 {
 	font-weight: 400;
 	text-align: center;
 }
+.button {
+ 
+  padding:5px;
+  padding-top: 0.6em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-bottom: 0.6em;
+  background-color: #3DC4CB;
+  border: 0px ;
+  color:#000;
+  text-decoration:none;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 3px;
+  width: 130px;
+  font-size: 0.9em;
+}
 
+.buttoncontent{
+	
+	background-color: #1C2731;
+	height: 380px;
 
 }
+
