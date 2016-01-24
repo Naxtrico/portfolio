@@ -6,68 +6,36 @@
 	box-sizing:border-box;
 
 }
-#main-header {
-	background: #3DC4CB;
-	color:white;
-	height:80px;
 
-}
-#main-header a {
-	color:white;
-}
-#logo-header {
-	float:left;
-	padding: 15px 0 0 20px;
-	text-decoration: none;
-
-
-}
-#logo-header:hover {
-	color:##0b76a6;
-}
-nav{
-	float:right;
-}
-nav ul{
-	margin:0;
-	padding:0;
-	list-style:none;
-	padding-right:20px;
-	float:left;
-}
-nav ul li a{
-	display:block;
-	padding:0 10 px;
-	text-decoration:none;
-}
-nav ul li a:hover{
-	background:#0b76a6;
-}
-#main-content {
-	background:white;
-	width:90%;
-	max-width: 800px;
-	margin:20px auto;
-	box-shadow: 0 0 10px rgba (0,0,0,.1)
-}
-#main-content header,
-#main-content .content{
-	padding:40px;
-}
-
-#logo-header .site-desc {
-	display:block;
-	font-weight:300;
-	font-size: 0.8em;
-	color: #999;
-}
 
 h1 {
+	padding-top: 0.5em;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	color: white;
 
+}
+
+h2 {
+	padding-top: 0.5em;
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+
+}
+.title {
+	padding-top: 0.5em;
+	color: #1C2731;
+font-size: 2em;
+	font-weight: 400;
+}
+
+h3 {
+	
+	margin-top: 10px;
+	text-align: center;
 }
 
 .container{
@@ -126,6 +94,58 @@ h1 {
 
 }
 .content{
-	padding-top:100px;
-	margin-top: 40px;
+	margin-top: 280px;
+	background-color: white;
+	height: 380px;
+}
+
+.paragraph{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.0em;
+	line-height: 0.9em;
+
+}
+.paragraph2{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1.0em;
+	line-height: 0.9em;
+	padding-bottom: 1.8em;
+}
+.headings{
+	
+	background-color: #F6FFC3;
+	height: 380px;
+}
+.titlehead{
+	
+	color: #1C2731;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.subtitle{
+	color: #1C2731;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400
+}
+.texts{
+	color: #1C2731;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.9em;
+	font-weight: 400
+}
+.footer{
+	padding-top: 1em;
+	color: #1C2731;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.7em;
+	font-weight: 400;
+	text-align: center;
+}
+
+
 }
